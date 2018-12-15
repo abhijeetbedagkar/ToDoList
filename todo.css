@@ -1,0 +1,57 @@
+body{
+	background-color: #d6fce6;
+	font-family: Arial;
+}
+
+.to-do-input{
+	width: 100%;
+	height: 2.5em;
+}
+
+.to-do-header{
+	background-color: #5b51f3;
+	color: white;
+	height: 3em;	 
+}
+
+.to-do-add-button{	
+	height: 20px;
+	width: 20px;
+	display:inline;
+	vertical-align: middle;
+	margin-left: 13em;	
+}
+
+.toDoWidget {	
+	margin-right: auto;
+	margin-left: auto;
+	width: 20em ;
+}
+
+.to-do-item {
+	/*margin-top: 0.1em;
+	margin-bottom: 0.1em;*/
+	height: 2.5em;
+}
+
+.to-do-item label{
+	/*margin-left: 2.5em;*/
+	display: inline;
+	vertical-align: middle;
+	/*margin-top: 0.6em;*/
+}
+
+.to-do-items div:nth-child(even) {
+	background: #f2f2f2
+}
+
+.to-do-items div:nth-child(odd) {
+	background: #b5b5b5
+}
+
+.delete-to-do{	
+	height: 2em;
+	display: inline;
+	vertical-align: middle;
+	visibility:hidden;
+}
